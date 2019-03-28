@@ -4,20 +4,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <!-- TemplateBeginEditable name="meta" -->
+<meta name="description" content="">
+  <meta name="keywords" content="キーワードが入ります。">
   <meta name="author" content="mac-agency">
-
+  <!-- TemplateEndEditable -->
+  <!-- TemplateBeginEditable name="doctitle" -->
   <title>Bocor bootstrap 3 one page template 皆様のコーポレートサイトのため</title>
-
+  <!-- TemplateEndEditable -->
   <!-- css -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <link href="css/nivo-lightbox.css" rel="stylesheet" />
-  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-  <link href="css/animations.css" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet">
-  <link href="color/default.css" rel="stylesheet">
-  <link href="css/index_customize.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="../css/nivo-lightbox.css" rel="stylesheet" />
+  <link href="../css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+  <link href="../css/animations.css" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="../color/default.css" rel="stylesheet">
+  <link href="../css/index_customize.css" rel="stylesheet" type="text/css">
   <!-- =======================================================
     Theme Name: Bocor
     Theme URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
@@ -25,42 +28,38 @@
     Author URL: https://bootstrapmade.com
   ======================================================= -->
 
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-
-  <section class="hero" id="intro">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-right navicon">
-          <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 text-center inner">
-          <div class="animatedParent">
-            <h1 class="animated fadeInDown">MUSIM BOCOR</h1>
-            <p class="animated fadeInUp">Udah dari dulu tahu kalo bocor kenapa nggak ditambal tong</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3 text-center">
-          <a href="#about" class="learn-more-btn btn-scroll">Learn more</a>
+<!-- TemplateBeginEditable name="hero" -->
+<section class="hero" id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-right navicon"> <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a> </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center inner">
+        <div class="animatedParent">
+          <h1 class="animated fadeInDown">MUSIM BOCOR</h1>
+          <p class="animated fadeInUp">Udah dari dulu tahu kalo bocor kenapa nggak ditambal tong</p>
         </div>
       </div>
     </div>
-  </section>
-
-
-  <!-- Navigation -->
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center"> <a href="#about" class="learn-more-btn btn-scroll">Learn more</a> </div>
+    </div>
+  </div>
+</section>
+<!-- TemplateEndEditable --><!-- Navigation -->
   <div id="navigation">
     <nav class="navbar navbar-custom" role="navigation">
       <div class="container">
         <div class="row">
           <div class="col-md-2">
             <div class="site-logo">
-              <a href="index.html" class="brand">Bocor</a>
+              <a href="../index.html" class="brand">Bocor</a>
             </div>
           </div>
 
@@ -95,7 +94,7 @@
   </div>
   <!-- /Navigation -->
 
-  <!-- Section: about -->
+  <!-- Section: about --><!-- TemplateBeginEditable name="main_content" -->
   <section id="about" class="home-section color-dark bg-white">
     <div class="container marginbot-50">
       <div class="row">
@@ -108,35 +107,19 @@
           </div>
         </div>
       </div>
-
     </div>
-
     <div class="container">
-
-
       <div class="row">
-
-
         <div class="col-lg-8 col-lg-offset-2 animatedParent">
           <div class="text-center">
-            <p>
-              Lorem ipsum dolor sit amet, vis tale malis tacimates et, graece doctus omnesque ne est, deserunt pertinacia ne nam. Pro eu simul affert referrentur, natum mutat erroribus te his
-            </p>
-            <p>
-              Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur.
-            </p>
-            <a href="#service" class="btn btn-skin btn-scroll">What we do</a>
-          </div>
+            <p> Lorem ipsum dolor sit amet, vis tale malis tacimates et, graece doctus omnesque ne est, deserunt pertinacia ne nam. Pro eu simul affert referrentur, natum mutat erroribus te his </p>
+            <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
+            <a href="#service" class="btn btn-skin btn-scroll">What we do</a> </div>
         </div>
-
-
       </div>
     </div>
-
   </section>
   <!-- /Section: about -->
-
-
   <!-- Section: services -->
   <section id="service" class="home-section color-dark bg-gray">
     <div class="container marginbot-50">
@@ -150,72 +133,51 @@
           </div>
         </div>
       </div>
-
     </div>
-
     <div class="text-center">
       <div class="container">
-
         <div class="row animatedParent">
           <div class="col-md-4">
             <div class="animated rotateInDownLeft">
               <div class="service-box">
-                <div class="service-icon">
-                  <span class="fa fa-laptop fa-2x"></span>
-                </div>
+                <div class="service-icon"> <span class="fa fa-laptop fa-2x"></span> </div>
                 <div class="service-desc">
                   <h5>Web Design</h5>
                   <div class="divider-header"></div>
-                  <p>
-                    Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
-                  </p>
-                  <a href="#" class="btn btn-skin">Learn more</a>
-                </div>
+                  <p> Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo. </p>
+                  <a href="#" class="btn btn-skin">Learn more</a> </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="animated rotateInDownLeft slow">
               <div class="service-box">
-                <div class="service-icon">
-                  <span class="fa fa-camera fa-2x"></span>
-                </div>
+                <div class="service-icon"> <span class="fa fa-camera fa-2x"></span> </div>
                 <div class="service-desc">
                   <h5>Photography</h5>
                   <div class="divider-header"></div>
-                  <p>
-                    Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
-                  </p>
-                  <a href="#" class="btn btn-skin">Learn more</a>
-                </div>
+                  <p> Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo. </p>
+                  <a href="#" class="btn btn-skin">Learn more</a> </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="animated rotateInDownLeft slower">
               <div class="service-box">
-                <div class="service-icon">
-                  <span class="fa fa-code fa-2x"></span>
-                </div>
+                <div class="service-icon"> <span class="fa fa-code fa-2x"></span> </div>
                 <div class="service-desc">
                   <h5>Graphic design</h5>
                   <div class="divider-header"></div>
-                  <p>
-                    Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
-                  </p>
-                  <a href="#" class="btn btn-skin">Learn more</a>
-                </div>
+                  <p> Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo. </p>
+                  <a href="#" class="btn btn-skin">Learn more</a> </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </section>
   <!-- /Section: services -->
-
-
   <!-- Section: works -->
   <section id="works" class="home-section color-dark text-center bg-white">
     <div class="container marginbot-50">
@@ -231,44 +193,21 @@
           </div>
         </div>
       </div>
-
     </div>
-
     <div class="container">
-
       <div class="row animatedParent">
         <div class="col-sm-12 col-md-12 col-lg-12">
-
           <div class="row gallery-item">
-            <div class="col-md-3 animated fadeInUp">
-              <a href="img/works/1.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1.jpg">
-								<img src="img/works/1.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
-            <div class="col-md-3 animated fadeInUp slow">
-              <a href="img/works/2.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/2.jpg">
-								<img src="img/works/2.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
-            <div class="col-md-3 animated fadeInUp slower">
-              <a href="img/works/3.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/3.jpg">
-								<img src="img/works/3.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
-            <div class="col-md-3 animated fadeInUp">
-              <a href="img/works/4.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/4.jpg">
-								<img src="img/works/4.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
+            <div class="col-md-3 animated fadeInUp"> <a href="../img/works/1.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1.jpg"> <img src="../img/works/1.jpg" class="img-responsive" alt="img"> </a> </div>
+            <div class="col-md-3 animated fadeInUp slow"> <a href="../img/works/2.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/2.jpg"> <img src="../img/works/2.jpg" class="img-responsive" alt="img"> </a> </div>
+            <div class="col-md-3 animated fadeInUp slower"> <a href="../img/works/3.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/3.jpg"> <img src="../img/works/3.jpg" class="img-responsive" alt="img"> </a> </div>
+            <div class="col-md-3 animated fadeInUp"> <a href="../img/works/4.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/4.jpg"> <img src="../img/works/4.jpg" class="img-responsive" alt="img"> </a> </div>
           </div>
-
         </div>
       </div>
     </div>
-
   </section>
   <!-- /Section: works -->
-
   <!-- Section: contact -->
   <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
     <div class="container marginbot-50">
@@ -282,11 +221,8 @@
           </div>
         </div>
       </div>
-
     </div>
-
     <div class="container">
-
       <div class="row marginbot-80">
         <div class="col-md-8 col-md-offset-2">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
@@ -316,18 +252,15 @@
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
-                <button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs">
-    									Send Message</button>
+                <button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs"> Send Message</button>
               </div>
             </div>
           </form>
         </div>
       </div>
-
-
     </div>
   </section>
-  <!-- /Section: contact -->
+  <!-- TemplateEndEditable --><!-- /Section: contact -->
 
 
   <footer>
@@ -356,18 +289,18 @@
   </footer>
 
   <!-- Core JavaScript Files -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/jquery.scrollTo.js"></script>
-  <script src="js/jquery.appear.js"></script>
-  <script src="js/stellar.js"></script>
-  <script src="js/nivo-lightbox.min.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery.sticky.js"></script>
+  <script src="../js/jquery.easing.min.js"></script>
+  <script src="../js/jquery.scrollTo.js"></script>
+  <script src="../js/jquery.appear.js"></script>
+  <script src="../js/stellar.js"></script>
+  <script src="../js/nivo-lightbox.min.js"></script>
 
-  <script src="js/custom.js"></script>
-  <script src="js/css3-animate-it.js"></script>
-  <script src="contactform/contactform.js"></script>
+  <script src="../js/custom.js"></script>
+  <script src="../js/css3-animate-it.js"></script>
+  <script src="../contactform/contactform.js"></script>
 
 </body>
 </html>
