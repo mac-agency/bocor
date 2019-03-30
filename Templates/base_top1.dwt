@@ -58,10 +58,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-2">
-            <div class="site-logo">
+          <div class="site-logo">
               <a href="../index.html" class="brand">Bocor</a>
             </div>
-          </div>
+          </div>  
 
 
           <div class="col-md-10">
@@ -266,13 +266,13 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <ul class="footer-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Press release</a></li>
-          </ul>
+        <div class="col-md-4">
+          
+          <div class="site-logo">
+              <a href="../index.html" class="brand text_white">Your company</a>
+            </div>
         </div>
-        <div class="col-md-6 text-right copyright">
+        <div class="col-md-4 text-right copyright">
           &copy;Copyright - Bocor. All Rights Reserved
           <div class="credits">
             <!--
@@ -283,6 +283,9 @@
             -->
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
+        </div>
+        <div class="col-md-4">
+        
         </div>
       </div>
     </div>
