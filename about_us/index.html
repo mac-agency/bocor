@@ -21,6 +21,31 @@
   <link href="../css/style.css" rel="stylesheet">
   <link href="../color/default.css" rel="stylesheet">
   <link href="../css/index_customize.css" rel="stylesheet" type="text/css">
+ <link href="../css/page_top.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+  $(function() {
+    var TopBtn = $('#PageTopBtn');    
+    TopBtn.hide();
+    // スクロール位置が100でボタンを表示
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            TopBtn.fadeIn();
+        } 
+        else {
+            TopBtn.fadeOut();
+        }
+    });
+    // ボタンを押下するとトップへ移動
+    TopBtn.click(function() {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 300);
+        return false;
+    });
+});
+  </script>
+
   <!-- =======================================================
     Theme Name: Bocor
     Theme URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
@@ -53,6 +78,7 @@
   </div>
 </section>
 <!-- InstanceEndEditable --><!-- Navigation -->
+  
   <div id="navigation">
     <nav class="navbar navbar-custom" role="navigation">
       <div class="container">
@@ -290,6 +316,8 @@
       </div>
     </div>
   </footer>
+  
+
 
   <!-- Core JavaScript Files -->
   <script src="../js/jquery.min.js"></script>
@@ -304,6 +332,7 @@
   <script src="../js/custom.js"></script>
   <script src="../js/css3-animate-it.js"></script>
   <script src="../contactform/contactform.js"></script>
-
+  
+<p id="PageTopBtn"><a href="#page-top">▲Page Top</a></p>
 </body>
 <!-- InstanceEnd --></html>
