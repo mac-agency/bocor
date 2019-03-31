@@ -131,6 +131,21 @@
   box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.25);
 }
 
+.hero_about_us {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-image: url(../about_us/images/about_us_top.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  padding: 50px 0;
+  background-size: cover;
+  height: auto;
+}
+
+.text_white {
+  color: rgba(255,255,255,1.00);
+}
+
 
 @media (max-width:320px){
 }
