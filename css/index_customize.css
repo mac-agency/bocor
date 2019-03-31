@@ -175,8 +175,7 @@
 }
 
 @media (max-width:414px){
-
-sm_non {
+.sm_non {
   display: none;
 }
 }
