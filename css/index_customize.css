@@ -101,6 +101,7 @@
 
 .midashi {
   text-align: center;
+  font-size: 24px;
 }
 
 .kaisetu_read {
@@ -113,6 +114,21 @@
   text-align: right;
   font-size: 16px;
   margin-top: 0px;
+}
+
+.jigyou_title {
+  background-color: #00AB8E;
+  color: #FFFFFF;
+  font-size: 21px;
+  line-height: 2em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 0px;
+}
+
+.ph_shadow {
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.25);
+  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.25);
 }
 
 
