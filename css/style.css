@@ -339,11 +339,11 @@ hr.bold {
 ============================ */
 
 .home-section {
-    padding-top: 150px;
-    padding-bottom: 110px;
-	display:block;
-    position:relative;
-    z-index:120;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  position: relative;
+  z-index: 120;
 }
 
 .inner-section {
@@ -430,7 +430,17 @@ hr.bold {
 --- Intro
 ============================ */
 
-.hero { background: url(../img/hero-bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto; }
+.hero {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../img/web_top.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 200px 0 200px 0;
+  height: auto;
+}
 .hero h1 { font-size: 40px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #fff;}
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { font-size: 24px; font-weight: 400; color: #fefefe; }
@@ -835,7 +845,7 @@ form.search-form input:focus {
 ============================ */
 
 footer {
-    background-color: #404040;
+  background-color: #B2B2B2;
 }
 
 footer {
