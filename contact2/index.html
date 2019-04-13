@@ -5,12 +5,13 @@
   <meta charset="euc-jp">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- InstanceBeginEditable name="meta" -->
-<meta name="description" content="説明文が入ります">
+<meta name="description" content="">
   <meta name="keywords" content="キーワードが入ります。">
   <meta name="author" content="mac-agency">
   <!-- InstanceEndEditable -->
   <!-- InstanceBeginEditable name="doctitle" -->
-  <title>当社について 皆様のコーポレートサイトのため</title>
+  <title>Bocor bootstrap 3 one page template 皆様のコーポレートサイトのため</title>
+  <link href="../css/form.css" rel="stylesheet" type="text/css">
   <!-- InstanceEndEditable -->
   <!-- css -->
   <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -54,12 +55,13 @@
   ======================================================= -->
 
 <!-- InstanceBeginEditable name="head" -->
+  
 <!-- InstanceEndEditable -->
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 <!-- InstanceBeginEditable name="hero" -->
-<section class="hero_about_us" id="intro">
+<section class="hero" id="intro">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-right navicon"> <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a> </div>
@@ -67,14 +69,14 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2 text-center inner">
         <div class="animatedParent">
-          <h1 class="animated fadeInDown text_white">ABOUT US</h1>
-          <p class="animated fadeInUp text_white">私達は流通を通して社会に貢献しています。</p>
+          <h1 class="animated fadeInDown">MUSIM BOCOR</h1>
+          <p class="animated fadeInUp">Udah dari dulu tahu kalo bocor kenapa nggak ditambal tong</p>
         </div>
       </div>
     </div>
-    <!--<div class="row">
+    <div class="row">
       <div class="col-md-6 col-md-offset-3 text-center"> <a href="#about" class="learn-more-btn btn-scroll">Learn more</a> </div>
-    </div>-->
+    </div>
   </div>
 </section>
 <!-- InstanceEndEditable --><!-- Navigation -->
@@ -121,13 +123,162 @@
   <!-- /Navigation -->
 
   <!-- Section: about --><!-- InstanceBeginEditable name="main_content" -->
+  <section id="form_test1">
+    
+    <div class="container">
+      
+      <br>
+    <h1>フォーム一覧</h1>
+    <br>
+ 
+    <div class="border col-5">
+        <br>
+        <h2>テキストボックス</h2>
+        <br>
+        <div class="row">
+            <div class="col-md">
+                <form method="post" action="mail.php">
+                    <div class="form-group">
+                        <label>氏名：</label>
+                        <input type="text" class="form-control">
+                    </div>
+                  
+                  <div class="form-group">
+                        <label>部署</label>
+                        <select class="form-control">
+                            <option>システム開発部</option>
+                            <option>SEOマーケティング部</option>
+                            <option>人事・総務部</option>
+                            <option>営業本部</option>
+                        </select>
+                    </div>
+                  
+                  <div class="form-group">
+                        <label>得意言語</label>
+                        <br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox">
+                            <label class="form-check-label">Java</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox">
+                            <label class="form-check-label">php</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox">
+                            <label class="form-check-label">ruby</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox">
+                            <label class="form-check-label">python</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox">
+                            <label class="form-check-label">C#</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox">
+                            <label class="form-check-label">VBA</label>
+                        </div>
+                    </div>
+                  
+                  <div class="form-group">
+                        <label>性別：</label>
+                        <br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" 
+ value="option1">
+                            <label class="form-check-label" for="inlineRadio1">男性</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" 
+ value="option2">
+                            <label class="form-check-label" for="inlineRadio2">女性</label>
+                        </div>
+                    </div>
+                  <p align="center">
+      <input type="submit" value="　 確認 　" />　<input type="reset" value="リセット" />
+    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+      
+      </div>
+    
+  </section>
+  
+  <section id="form_test2">
+    <div class="container">
+       <div class="cp_form">
+<form class="go-bottom" method="post" action="mail.php">
+<h2>Contact Form Sample</h2>
+<div class="cp_tx">
+<input id="name" name="name" type="text" required>
+<label for="name">お名前</label>
+</div>
+<div class="cp_tx">
+<input id="phone" name="phone" type="tel" required>
+<label for="phone">電話番号</label>
+</div>
+<div class="cp_tx">
+<textarea id="message" name="message" required></textarea>
+<label for="message">お問合せ内容</label>
+</div>
+<div class="cp_ipselect cp_sl01">
+<select required>
+<option value="" hidden>選んでください</option>
+<option value="1">cat</option>
+<option value="2">dog</option>
+<option value="3">rabbit</option>
+<option value="4">squirrel</option>
+</select>
+</div>
+<div class="cp_input">
+<div class="cp_ipcheck">
+Checkbox
+<input type="checkbox" id="c_ch1" checked />
+<label for="c_ch1">cat</label>
+<input type="checkbox" id="c_ch2" />
+<label for="c_ch2">dog</label>
+<input type="checkbox" id="c_ch3" />
+<label for="c_ch3">rabbit</label>
+</div>
+</div>
+<div class="cp_input">
+<div class="cp_ipradio">
+RadioButton
+<input type="radio" name="cpipr04" id="b_rb1" value="1">
+<label for="b_rb1">cat</label>
+<input type="radio" name="cpipr04" id="b_rb2" value="2">
+<label for="b_rb2">dog</label>
+<input type="radio" name="cpipr04" id="b_rb3" value="3" checked>
+<label for="b_rb3">rabbit</label>
+</div>
+</div>
+<div class="cp_ipfile">
+<label>
+<div class="button">Choose File</div>
+<input type="file" class="file_input" name="file" />
+<div class="file_text">No file selected</div>
+</label>
+</div>
+<div class="cp_btn">
+<div class="btn_cont">
+<button class="btn" type="button"><span>Submit</span></button>
+</div>
+</div>
+  </form>
+      </div>
+    
+    </section>
   <section id="about" class="home-section color-dark bg-white">
     <div class="container marginbot-50">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="animatedParent">
             <div class="section-heading text-center animated bounceInDown">
-              <h2 class="h-bold">当社について</h2>
+              <h2 class="h-bold">About our bocor team</h2>
               <div class="divider-header"></div>
             </div>
           </div>
@@ -138,53 +289,28 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 animatedParent">
           <div class="text-center">
-            <p> 情に棹させば流される。智に働けば角が立つ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。とかくに人の世は住みにくい。意地を通せば窮屈だ。 
-とかくに人の世は住みにくい。
- </p>
-             </div>
+            <p> Lorem ipsum dolor sit amet, vis tale malis tacimates et, graece doctus omnesque ne est, deserunt pertinacia ne nam. Pro eu simul affert referrentur, natum mutat erroribus te his </p>
+            <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
+            <a href="#service" class="btn btn-skin btn-scroll">What we do</a> </div>
         </div>
       </div>
     </div>
   </section>
   <!-- /Section: about -->
   <!-- Section: services -->
-  <section id="service" class="home-section color-dark bg-white">
+  <section id="service" class="home-section color-dark bg-gray">
     <div class="container marginbot-50">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div>
             <div class="section-heading text-center">
-              <h2 class="h-bold">当社の基本ポリシー</h2>
+              <h2 class="h-bold">What we can do for you</h2>
               <div class="divider-header"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    <div class="container">
-      <div class="row sm_non">
-        <div class="col-sm-10 col-sm-offset-1">
-    <img src="images/policy_pc.jpg" class="img-responsive retina" alt="企業ポリシー">
-        </div>
-        
-        </div>
-      <div class="row pc_non">
-      <div class="col-sm-12"><img src="images/company.jpg" class="img-responsive retina" alt="会社"></div>
-      <div class="col-sm-12"><img src="images/policy_sm1.jpg" class="img-responsive retina" alt="ポリシー"></div>
-        <div class="col-sm-12"><img src="images/policy_sm1.jpg" class="img-responsive retina" alt="ポリシー"></div>
-        <div class="col-sm-12"><img src="images/policy_sm2.jpg" class="img-responsive retina" alt="ポリシー"></div>
-        <div class="col-sm-12"><img src="images/policy_sm3.jpg" class="img-responsive retina" alt="ポリシー"></div>
-        <div class="col-sm-12"><img src="images/policy_sm4.jpg" class="img-responsive retina" alt="ポリシー"></div>
-        <div class="col-sm-12"><img src="images/policy_sm5.jpg" class="img-responsive retina" alt="ポリシー"></div>
-      </div>
-      <h3 class="text-center">ポリシーの解説</h3>
-      <p>情に棹させば流される。智に働けば角が立つ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。とかくに人の世は住みにくい。意地を通せば窮屈だ。 
-とかくに人の世は住みにくい。
-</p>
-    </div>
-    
-    
     <div class="text-center">
       <div class="container">
         <div class="row animatedParent">

@@ -5,12 +5,12 @@
   <meta charset="euc-jp">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- InstanceBeginEditable name="meta" -->
-<meta name="description" content="説明文が入ります">
+<meta name="description" content="">
   <meta name="keywords" content="キーワードが入ります。">
   <meta name="author" content="mac-agency">
   <!-- InstanceEndEditable -->
   <!-- InstanceBeginEditable name="doctitle" -->
-  <title>当社について 皆様のコーポレートサイトのため</title>
+  <title>Bocor bootstrap 3 one page template 皆様のコーポレートサイトのため</title>
   <!-- InstanceEndEditable -->
   <!-- css -->
   <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -54,12 +54,13 @@
   ======================================================= -->
 
 <!-- InstanceBeginEditable name="head" -->
+  
 <!-- InstanceEndEditable -->
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 <!-- InstanceBeginEditable name="hero" -->
-<section class="hero_about_us" id="intro">
+<section class="hero" id="intro">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-right navicon"> <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a> </div>
@@ -67,14 +68,14 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2 text-center inner">
         <div class="animatedParent">
-          <h1 class="animated fadeInDown text_white">ABOUT US</h1>
-          <p class="animated fadeInUp text_white">私達は流通を通して社会に貢献しています。</p>
+          <h1 class="animated fadeInDown">MUSIM BOCOR</h1>
+          <p class="animated fadeInUp">Udah dari dulu tahu kalo bocor kenapa nggak ditambal tong</p>
         </div>
       </div>
     </div>
-    <!--<div class="row">
+    <div class="row">
       <div class="col-md-6 col-md-offset-3 text-center"> <a href="#about" class="learn-more-btn btn-scroll">Learn more</a> </div>
-    </div>-->
+    </div>
   </div>
 </section>
 <!-- InstanceEndEditable --><!-- Navigation -->
@@ -121,13 +122,64 @@
   <!-- /Navigation -->
 
   <!-- Section: about --><!-- InstanceBeginEditable name="main_content" -->
+  
+  <div class="container">
+    <div id="formWrap">
+  <h3>お問い合わせ</h3>
+  <p>下記フォームに必要事項を入力後、確認ボタンを押してください。</p>
+  <form method="post" action="mail.php">
+    <table class="formTable">
+      <tr>
+        <th>ご用件</th>
+        <td><select name="ご用件">
+            <option value="">選択してください</option>
+            <option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
+            <option value="リンクについて">リンクについて</option>
+          </select></td>
+      </tr>
+      <tr>
+        <th>お名前</th>
+        <td><input size="20" type="text" name="お名前" /> ※必須</td>
+      </tr>
+      <tr>
+        <th>電話番号（半角）</th>
+        <td><input size="30" type="text" name="電話番号" /></td>
+      </tr>
+      <tr>
+        <th>Mail（半角）</th>
+        <td><input size="30" type="text" name="Email" /> ※必須</td>
+      </tr>
+      <tr>
+        <th>性別</th>
+        <td><input type="radio" name="性別" value="男" /> 男　
+          <input type="radio" name="性別" value="女" /> 女 </td>
+      </tr>
+      <tr>
+        <th>サイトを知ったきっかけ</th>
+        <td><input name="サイトを知ったきっかけ[]" type="checkbox" value="友人・知人" /> 友人・知人　
+          <input name="サイトを知ったきっかけ[]" type="checkbox" value="検索エンジン" /> 検索エンジン</td>
+      </tr>
+      <tr>
+        <th>お問い合わせ内容<br /></th>
+        <td><textarea name="お問い合わせ内容" cols="50" rows="5"></textarea></td>
+      </tr>
+    </table>
+    <p align="center">
+      <input type="submit" value="　 確認 　" />　<input type="reset" value="リセット" />
+    </p>
+  </form>
+  <p>※IPアドレスを記録しております。いたずらや嫌がらせ等はご遠慮ください</p>
+</div>
+    </div>
+  
+  
   <section id="about" class="home-section color-dark bg-white">
     <div class="container marginbot-50">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="animatedParent">
             <div class="section-heading text-center animated bounceInDown">
-              <h2 class="h-bold">当社について</h2>
+              <h2 class="h-bold">About our bocor team</h2>
               <div class="divider-header"></div>
             </div>
           </div>
@@ -138,53 +190,28 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 animatedParent">
           <div class="text-center">
-            <p> 情に棹させば流される。智に働けば角が立つ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。とかくに人の世は住みにくい。意地を通せば窮屈だ。 
-とかくに人の世は住みにくい。
- </p>
-             </div>
+            <p> Lorem ipsum dolor sit amet, vis tale malis tacimates et, graece doctus omnesque ne est, deserunt pertinacia ne nam. Pro eu simul affert referrentur, natum mutat erroribus te his </p>
+            <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
+            <a href="#service" class="btn btn-skin btn-scroll">What we do</a> </div>
         </div>
       </div>
     </div>
   </section>
   <!-- /Section: about -->
   <!-- Section: services -->
-  <section id="service" class="home-section color-dark bg-white">
+  <section id="service" class="home-section color-dark bg-gray">
     <div class="container marginbot-50">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div>
             <div class="section-heading text-center">
-              <h2 class="h-bold">当社の基本ポリシー</h2>
+              <h2 class="h-bold">What we can do for you</h2>
               <div class="divider-header"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    <div class="container">
-      <div class="row sm_non">
-        <div class="col-sm-10 col-sm-offset-1">
-    <img src="images/policy_pc.jpg" class="img-responsive retina" alt="企業ポリシー">
-        </div>
-        
-        </div>
-      <div class="row pc_non">
-      <div class="col-sm-12"><img src="images/company.jpg" class="img-responsive retina" alt="会社"></div>
-      <div class="col-sm-12"><img src="images/policy_sm1.jpg" class="img-responsive retina" alt="ポリシー"></div>
-        <div class="col-sm-12"><img src="images/policy_sm1.jpg" class="img-responsive retina" alt="ポリシー"></div>
-        <div class="col-sm-12"><img src="images/policy_sm2.jpg" class="img-responsive retina" alt="ポリシー"></div>
-        <div class="col-sm-12"><img src="images/policy_sm3.jpg" class="img-responsive retina" alt="ポリシー"></div>
-        <div class="col-sm-12"><img src="images/policy_sm4.jpg" class="img-responsive retina" alt="ポリシー"></div>
-        <div class="col-sm-12"><img src="images/policy_sm5.jpg" class="img-responsive retina" alt="ポリシー"></div>
-      </div>
-      <h3 class="text-center">ポリシーの解説</h3>
-      <p>情に棹させば流される。智に働けば角が立つ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。とかくに人の世は住みにくい。意地を通せば窮屈だ。 
-とかくに人の世は住みにくい。
-</p>
-    </div>
-    
-    
     <div class="text-center">
       <div class="container">
         <div class="row animatedParent">
