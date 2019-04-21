@@ -157,6 +157,33 @@
   height: auto;
 }
 
+.footer_link {
+  color: hsla(0,0%,100%,1.00);
+}
+
+.footer_link:link {
+  color: hsla(0,0%,100%,1.00);
+  font-size: 11px;
+}
+
+.footer_link li a {
+  color: hsla(0,0%,100%,1.00);
+  font-size: 15px;
+}
+
+.padding_left5 {
+  padding-left: 5px;
+}
+
+.foote_list_midashi {
+  color: hsla(0,0%,90%,1.00);
+  font-size: 16px;
+  text-align: left;
+  border-bottom: 1px solid hsla(0,0%,80%,1.00);
+  padding-bottom: 7px;
+  margin-bottom: 10px;
+}
+
 
 @media (max-width:320px){
 }
@@ -186,6 +213,10 @@
 }
 
 @media (max-width:414px){
+
+.footer_link {
+  color: hsla(0,0%,100%,1.00);
+}
 .sm_non {
   display: none;
 }
