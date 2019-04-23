@@ -184,6 +184,22 @@
   margin-bottom: 10px;
 }
 
+.philosophy_top {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../philosophy/images/philosophy_top.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  padding: 200px 0 200px 0;
+  background-size: cover;
+  height: auto;
+}
+
+.section_padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 
 @media (max-width:320px){
 }
